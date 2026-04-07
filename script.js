@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Competências extraídas do seu currículo
+    
     const skills = [
         "Redes de Computadores", 
         "Manutenção de Impressoras", 
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const container = document.getElementById('skills-list');
 
-    // Inserção dinâmica das tags
+   
     skills.forEach(skill => {
         const tag = document.createElement('span');
         tag.className = 'skill-tag';
@@ -20,6 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
         container.appendChild(tag);
     });
 
-    // Log para confirmar carregamento
+   
     console.log("Portfólio de Basílio Dona carregado com sucesso.");
 });
